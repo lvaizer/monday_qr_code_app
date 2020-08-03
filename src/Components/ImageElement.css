@@ -1,0 +1,51 @@
+@keyframes scale_out {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(0.0);
+    }
+}
+
+@keyframes scale_in {
+    0% {
+        transform: scale(0.0);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+.preview_image {
+    width: 180px;
+    height: 180px;
+    animation: scale_in 0.3s;
+}
+
+.scale_out {
+    animation: scale_out 0.3s;
+}
+
+.download_button:hover {
+    cursor: pointer;
+    background-color: #0065bf;
+}
+
+.download_button, .download_button:active {
+    margin: 20px 0;
+    width: 225px;
+    padding: 10px;
+    background-color: #0085FF;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer_small_link {
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #1A0DAB;
+}

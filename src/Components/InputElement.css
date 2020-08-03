@@ -1,0 +1,40 @@
+.url_input, .url_input:active, .url_input:focus {
+    width: 97%;
+    height: 52px;
+    border: 2px solid #0176FF;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    margin-right: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .url_input, .url_input:active, .url_input:focus {
+        width: 600px;
+        margin-right: 10px;
+    }
+}
+
+.generate_button:hover {
+    cursor: pointer;
+    background-color: #94ccfc;
+}
+
+.generate_button, .generate_button:active {
+    width: auto;
+    border-radius: 10px;
+    background-color: #DFF0FF;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .generate_button, .generate_button:active {
+        width: 132px;
+        margin-top: 0;
+    }
+}
