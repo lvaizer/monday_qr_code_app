@@ -259,8 +259,8 @@ function App() {
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(data)
         };
-        fetch('https://monday.visualead.com/generateQRCode', options).then(response => response.json()).then((response) => {
-            // fetch('http://localhost:8080/generateQRCode', options).then(response => response.json()).then((response) => {
+        const server_URL = '';
+        fetch(server_URL, options).then(response => response.json()).then((response) => {
             if (isRefExist(imageRef)) {
                 //hide the image
                 imageRef.current.hide(true);
