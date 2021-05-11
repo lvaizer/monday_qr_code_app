@@ -10,7 +10,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "monday-sdk-js": "0.0.16",
-    "lodash": "4.17.19",
+    "lodash": "4.17.21",
     "react-alert": "^7.0.2"
   },
   "scripts": {
